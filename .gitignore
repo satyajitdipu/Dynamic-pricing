@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm/
+
+# Environment variables file
+.env
+
+# IDE or editor files
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment configuration
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Yarn integrity file
+.yarn-integrity

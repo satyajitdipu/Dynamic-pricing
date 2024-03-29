@@ -1,0 +1,32 @@
+// this is an api setup for calculating the dynamic price according to the distance
+
+// follow the steps one after one
+
+// installing packages
+// npm run i
+
+// database configuration
+// add the postgres credentials according to the config file
+
+// seed Database
+// navigate to the migtarion folder 
+//then tun " node index.js " to create the tables and seed the date into the database make sure to add relevant data to the database
+
+// running server
+// after completing the above steps run the server
+// for running the server run  " npm rum dev " in the terminal 
+
+
+
+
+//  end point and the pay-load
+
+//  post method
+//  http://localhost:3000/api/pricing/calculate-price   
+
+// {
+//     "zone": "central",
+//     "organization_id": "62377f9e-2b39-4ab5-bf65-8ebe035aa871",
+//     "total_distance": 12,
+//     "item_type": "perishable"
+//   }
